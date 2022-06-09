@@ -22,11 +22,6 @@ aside {
     box-sizing: border-box;
 }
 
-
-/*.cc {
-    background-image: linear-gradient(to bottom, #30cfd0 0%, #fff 100%);
-}*/
-
 @media (min-width: 992px) {
     article {
         float: left;
