@@ -7,19 +7,9 @@ img {
     width: 200px;
 }
 
-header,
-aside,
-footer {
-    border: 1px solid #000;
-    box-sizing: border-box;
-}
-
 aside {
-    border: 1px solid rgb(173, 171, 170);
     padding: 20px;
-    border-style: solid;
-    border-radius: 10px;
-    box-sizing: border-box;
+    background-color: #F0EFF4;
 }
 
 @media (min-width: 992px) {
@@ -96,7 +86,7 @@ aside {
 }
 
 .li_1 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 h3 {
@@ -136,4 +126,8 @@ form.example::after {
     content: "";
     clear: both;
     display: table;
+}
+
+li {
+    line-height: 40px;
 }
