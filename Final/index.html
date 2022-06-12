@@ -9,6 +9,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="0609.css" />
+    <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
     <title>期末專題_RWD</title>
 </head>
 
@@ -25,21 +31,47 @@
                 </div>
             </div>
         </div>
-        <nav class="list">
-            <marquee ScrollAmount="20" behavior="alternate">哭阿~我還沒做完
-                <input class="button" type="button" value="競賽經歷" onclick="location.href=''">
-                <input class="button" type="button" value="參加活動" onclick="location.href=''">
-            </marquee>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">選單</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample03">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">簡介</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  active" href="#">競賽經歷</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  active">偉大事蹟</a>
+                        </li>
+                    </ul>
+                    <form role="search">
+                        <input class="form-control" type="search" placeholder="這只是弄好看的" aria-label="Search">
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
 
     <article>
-        <h3>名字：邱楷仁</h3>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-4 col-ig-3">
-                    <div class="item">
-                        <img src="myself.jpg" alt="photo" class="w-100">
+        <P>
+            <div class="row align-items-md-stretch">
+                <div class="col-md-6">
+                    <div class="h-100 p-5 text-white bg-dark rounded-3">
+                        <h2>Change the background</h2>
+                        <p><img src="myself.jpg" alt="photo" class="w-100">Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                        <h2>Add borders</h2>
+                        <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.
+                        </p>
                     </div>
                 </div>
             </div>
