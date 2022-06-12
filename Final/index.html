@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="0609.css" />
     <title>期末專題_RWD</title>
 </head>
@@ -32,19 +33,20 @@
                 <div class="collapse navbar-collapse" id="navbarsExample03">
                     <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">簡介</a>
+                            <a class="nav-link active" aria-current="page" href="#sec_01">簡介</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  active" href="#">競賽經歷</a>
+                            <a class="nav-link  active" href="#sec_02">競賽經歷</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  active">參加活動</a>
+                            <a class="nav-link  active" href="#sec_03">參加活動</a>
                         </li>
                     </ul>
 
                 </div>
-                <form role="search">
-                    <input class="form-control" type="search" placeholder="這只是弄好看的" aria-label="Search">
+                <form class="example" style="margin:auto;max-width:300px">
+                    <input type="text" placeholder="搜尋" name="search2">
+                    <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
             </div>
         </nav>
@@ -55,41 +57,68 @@
             <div class="row align-items-md-stretch">
                 <div class="col-md-6">
                     <div class="h-100 p-5 text-white bg-dark rounded-3">
-                        <h2>簡介</h2>
+                        <h2 id="sec_01">簡介</h2>
                         <p><img src="myself.jpg" alt="photo" class="w-100"></p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="h-100 p-5 bg-light border rounded-3">
-                        <h2>Add borders</h2>
-                        <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.
-                        </p>
+                        <h2>introduce oneself</h2>
+                        <ul>
+                            <li>名字：邱楷仁</li>
+                            <li>性別：男生</li>
+                            <li>興趣：寫網頁</li>
+                            <li>生日：11/17</li>
+                            <li>星座：天蠍座</li>
+                            <li>目前就讀：屏東科技大學資訊管理系</li>
+                            <li>高中：高雄市立高雄高級商業職業學校</li>
+                            <li>國中：高雄市立光華國民中學</li>
+                            <li>國小：高雄市前鎮區光華國民小學</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="h-100 p-5 bg-light border rounded-3">
-                        <h2>Add borders</h2>
-                        <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.
-                        </p>
+                        <h2>Competition</h2>
+                        <ol>
+                            <li>參加第 50 屆全國技能競賽(南區)網頁技術-網頁設計</li>
+                            <li>108 學年度電腦能力競賽(高二組)文書職種-第三名 </li>
+                            <li>107 學年度電腦能力競賽(高一組)網頁設計-第一名</li>
+                            <li>參加2019 ICDL 資訊安全能力競賽</li>
+                            <li>國際運算思維挑戰賽(十一、十二年級)全國 PR69</li>
+                            <li>全國高中閱讀心得比賽(1071031)一年級組-優等</li>
+                            <li>107-1 讀書心得徵文比賽-優勝</li>
+                            <li>109學年度-2 國文科『雄商悅讀護照』閱讀達人 </li>
+                        </ol>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="h-100 p-5 text-white bg-dark rounded-3">
-                        <h2>競賽經歷</h2>
-                        <p><img src="myself.jpg" alt="photo" class="w-100"></p>
+                        <h2 id="sec_02">競賽經歷</h2>
+                        <p><img src="Competition.jpg" alt="photo" class="w-100"></p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="h-100 p-5 text-white bg-dark rounded-3">
-                        <h2>參加活動</h2>
-                        <p><img src="myself.jpg" alt="photo" class="w-100"></p>
+                        <h2 id="sec_03">參加活動</h2>
+                        <p><img src="Activities.jpg" alt="photo" class="w-100"></p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="h-100 p-5 bg-light border rounded-3">
-                        <h2>Add borders</h2>
-                        <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.
-                        </p>
+                        <h2>Activities attended</h2>
+                        <ol>
+                            <li>『健智電腦股份有限公司』實習</li>
+                            <li>高雄高商員生消費合作社實習</li>
+                            <li>雄中、雄商第二屆學友交流活動</li>
+                            <li>2018 雄商溫馨傳情金沙花活動</li>
+                            <li>雄商八一周年校慶社團成果展-音控組</li>
+                            <li>直屬班迎新活動-機動組</li>
+                            <li>公民訓練活動</li>
+                            <li>飢餓勇士大會師-第三十屆</li>
+                            <li>社區重陽節暨登革熱宣傳活動</li>
+                            <li>財團法人創世福利基金會-募集發票</li>
+                        </ol>
                     </div>
                 </div>
             </div>
@@ -100,17 +129,22 @@
         <nav>
             <ul>
                 <h3>常用網站</h3>
-                <li class="li_1"><a href="https://coolors.co/020300-36311f-59544b-7d8ca3-79a9d1">配色網站</a></li>
+                <li class="li_1"><a href="https://coolors.co/020300-36311f-59544b-7d8ca3-79a9d1">coolors.co</a></li>
                 <li class="li_1"><a href="https://www.w3schools.com/default.asp">w3schools</a></li>
                 <li class="li_1"><a href="https://github.com/">github</a></li>
                 <li class="li_1"><a href="https://getbootstrap.com/">bootstrap</a></li>
-                <li class="li_1"><a href="">博美犬價格</a></li>
             </ul>
         </nav>
     </aside>
 
-    <footer class="cc">地址：912301 屏東縣內埔鄉老埤村學府路1號
-        <p>聯絡電話：+886-8-7703202 </footer>
+    <footer class="cc">
+        <p>學校地址：912301 屏東縣內埔鄉老埤村學府路1號
+            <p>聯絡電話：+886-8-7703202
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.280035999893!2d120.60763791491222!3d22.64334538514647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e3cb5a7cb807b%3A0x7fdab22079019ef3!2z5ZyL56uL5bGP5p2x56eR5oqA5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1655045376118!5m2!1szh-TW!2stw"
+                        width="30%" height="50%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+    </footer>
 
 
     <!-- Optional JavaScript -->
