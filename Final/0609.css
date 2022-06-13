@@ -131,3 +131,10 @@ form.example::after {
 li {
     line-height: 40px;
 }
+
+footer {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    margin-top: 20px;
+    color: #fff;
+}
