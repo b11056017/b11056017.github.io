@@ -15,11 +15,7 @@ aside {
 @media (min-width: 992px) {
     article {
         float: left;
-        width: 70%;
-    }
-    aside {
-        float: right;
-        width: 30%;
+        width: 100%;
     }
     footer {
         clear: both;
@@ -32,11 +28,7 @@ aside {
 @media (min-width: 768px) and (max-width: 992px) {
     article {
         float: left;
-        width: 70%;
-    }
-    aside {
-        float: right;
-        width: 30%;
+        width: 100%;
     }
     footer {
         clear: both;
