@@ -26,21 +26,26 @@
         </div>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">選單</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
 
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="這個叫選單">
+                        選單
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">相簿</a></li>
+                        <li><a class="dropdown-item" href="#">如何做好網頁</a></li>
+                    </ul>
+                </div>
                 <div class="collapse navbar-collapse" id="navbarsExample03">
                     <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#sec_01">簡介</a>
+                            <a class="nav-link active" href="#sec_01" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="到下方簡介">簡介</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#sec_02">競賽經歷</a>
+                            <a class="nav-link active" href="#sec_02" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="到下方競賽經歷">競賽經歷</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#sec_03">參加活動</a>
+                            <a class="nav-link active" href="#sec_03" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="到下方參加活動">參加活動</a>
                         </li>
                     </ul>
 
@@ -70,7 +75,7 @@
                 <div class="col-md-6 order-2">
                     <div class="h-100 p-5 bg-light">
                         <div>
-                            <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="請點開">
                                 <h2>Introduce oneself</h2>
                             </a>
                         </div>
@@ -103,7 +108,7 @@
 
                 <div class="col-md-6 order-4">
                     <div class="h-100 p-5 bg-light">
-                        <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="請點開">
                             <h2>Competition</h2>
                         </a>
                         <div class="collapse" id="collapseExample2">
@@ -132,7 +137,7 @@
 
                 <div class="col-md-6 order-6">
                     <div class="h-100 p-5 bg-light">
-                        <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="請點開">
                             <h2>Activities attended</h2>
                         </a>
                         <div class="collapse" id="collapseExample3">
@@ -221,15 +226,38 @@
         </div>
     </aside>
 
-    <footer>
-        <div>
-            <center>
-                學校地址：912301 屏東縣內埔鄉老埤村學府路1號
-                <br>聯絡電話：+886-8-7703202
-                <br>© 2022 邱楷仁
-            </center>
-        </div>
-    </footer>
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3" style="width: 37rem;">
+                    <h5 _msthash="1118078" _msttexthash="5559528">聯絡資訊</h5>
+                    <ul class="nav flex-column">
+                        <li class=""><a href="#" class="nav-link p-0 text-muted">912301 屏東縣內埔鄉老埤村學府路1號</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">+886-8-7703202</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">校安中心：#7119 或 手機：0921547119</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">大門駐衛警：#5041</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">電算中心：#6044</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5 _msthash="1506609" _msttexthash="38227670">訂閱按讚開啟小鈴鐺</h5>
+                        <p _msthash="1452958" _msttexthash="127844353">每月摘要，瞭解邱楷仁的內容。</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden" _msthash="2092948" _msttexthash="14406548">電子郵箱</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="電子郵箱" style="height: 4rem;">
+                            <button class="btn btn-primary" type="button">訂閱</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p _msthash="794300" _msttexthash="42366870">© 2022 邱楷仁</p>
+            </div>
+        </footer>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
