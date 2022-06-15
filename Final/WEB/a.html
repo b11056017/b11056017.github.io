@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>恭喜你點進來相簿</title>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+.bk {
+}
+.bk {
+	background-color: #000;
+}
+body {
+	background-image: url(images/pic15.jpg);
+	background-repeat: repeat;
+	background-position:center;
+	margin-left: 40px;
+	text-align: center;
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+.L {
+	text-align: center;
+}
+.button.next b font {
+	color: #FFF;
+}
+</style>
+</head>
+
+<body onLoad="MM_preloadImages('banana.jpg','guava.jpg','papaya.jpg','images/litchi.jpg','images/banana.jpg','images/guava.jpg','images/papaya.jpg')">
+<table width="1619" border="2" >
+  <tr>
+    <td height="583" colspan="4"><div align="center"><img src="images/guava.jpg" alt="4" name="a2" width="455" height="426" id="a2"></div></td>
+  </tr>
+  <tr>
+    <td width="449" height="259"><div align="center"><img src="images/banana.jpg" alt="1" name="a" width="269" height="190" id="a" onMouseOver="MM_swapImage('a2','','images/banana.jpg',1)" onMouseOut="MM_swapImgRestore()"></div></td>
+    <td width="395"><div align="center"><img src="images/guava.jpg" alt="2" name="b" width="237" height="231" id="b" onMouseOver="MM_swapImage('a2','','images/guava.jpg',1)" onMouseOut="MM_swapImgRestore()"></div></td>
+    <td width="418"><div align="center"><img src="images/papaya.jpg" alt="3" name="c" width="303" height="217" id="c" onMouseOver="MM_swapImage('a2','','images/papaya.jpg',1)" onMouseOut="MM_swapImgRestore()"></div></td>
+    <td width="327"><div align="center"><img src="images/litchi.jpg" alt="d" width="255" height="213" onMouseOver="MM_swapImage('a2','','images/litchi.jpg',1)" onMouseOut="MM_swapImgRestore()"></div></td>
+  </tr>
+</table>
+<p><a href="index.html" class="button next"><b><font size="+3">首頁！</font></b></a>
+
+<p align="center">
+<marquee bgcolor="#FF0000"><font color="#FFFFFF">中小企業的政策就是～拉進來～～～ 打出去</font> </marquee>
+<iframe src="https://www.youtube.com/embed/ptZVUYstGG4" width="560" height="315" frameborder="0" class="L" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UHWzxo9apmY?start=31" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>
