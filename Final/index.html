@@ -12,7 +12,11 @@
 </head>
 <script>
     var nickname = prompt('請輸入你的暱稱');
-    alert('你好~ ' + nickname);
+    if (nickname == null) {
+        alert('你好~');
+    } else {
+        alert('你好~ ' + nickname);
+    }
 </script>
 
 <body>
